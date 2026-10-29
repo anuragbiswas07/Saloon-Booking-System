@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Zone Salon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="container nav">
+      <h1 class="logo">Style Zone Salon</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#prices">Prices</a>
+        <a href="#about">About</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home / Banner -->
+  <section id="home" class="banner">
+    <div class="banner-text">
+      <h2>Look good, feel good</h2>
+      <p>Haircuts, facials, makeup and more for men and women. Book your appointment online in a minute.</p>
+      <a href="#booking" class="btn">Book Appointment</a>
+    </div>
+  </section>
+  <!-- Register -->
+  <section id="register" class="section register-section">
+    <div class="container">
+      <div class="register-card">
+        <div class="register-heading">
+          <p class="register-eyebrow">WELCOME TO STYLE ZONE</p>
+          <h2 class="title">Create your account</h2>
+          <p>Register to make your next salon visit a little easier.</p>
+        </div>
+        <form action="register.php" method="POST" class="register-form">
+          <div class="register-fields">
+            <div class="register-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required>
+            </div>
+            <div class="register-field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Your phone number" required>
+            </div>
+            <div class="register-field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+            <div class="register-field">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" autocomplete="new-password" placeholder="Create a password" required>
+            </div>
+          </div>
+          <button type="submit" class="register-submit">Create account</button>
+          <p class="register-note">Your details help us manage your salon visits.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="title">Our Services</h2>
+      <div class="boxes">
+        <div class="box">
+          <h3>Hair Cut & Styling</h3>
+          <p>Trendy cuts and styling for men, women and kids.</p>
+          <p>Price: $20 - $50</p>
+        </div>
+        <div class="box">
+          <h3>Facial & Cleanup</h3>
+          <p>Deep cleaning and glow treatment for fresh skin.</p>
+          <p>Price: $30 - $80</p>       
+        </div>
+        <div class="box">
+          <h3>Bridal Makeup</h3>
+          <p>Full makeup and hair for weddings and functions.</p>
+          <p>Price: $100 - $200</p>
+        </div>
+        <div class="box">
+          <h3>Manicure & Pedicure</h3>
+          <p>Nail care, nail polish and foot spa.</p>
+          <p>Price: $25 - $60</p>
+        </div>
+        <div class="box">
+          <h3>Hair Colour & Spa</h3>
+          <p>Colouring, keratin and hair spa for shiny hair.</p>
+          <p>Price: $40 - $100</p>
+        </div>
+        <div class="box">
+          <h3>Waxing & Threading</h3>
+          <p>Clean and painless hair removal.</p>
+          <p>Price: $15 - $50</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price List -->
+  <section id="prices" class="section grey">
+    <div class="container">
+      <h2 class="title">Price List</h2>
+      <table>
+        <tr>
+          <th>Service</th>
+          <th>Time</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Hair Cut</td>
+          <td>30 mins</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+          <td>Facial</td>
+          <td>60 mins</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Bridal Makeup</td>
+          <td>90 mins</td>
+          <td>$150</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="title">About Us</h2>
+      <div class="about">
+        <p>Welcome to Style Zone Salon! We are a team of professional stylists dedicated to providing the best hair care and beauty services.</p>
+        <p>Our mission is to make you feel confident and beautiful with every visit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section grey">
+    <div class="container">
+      <h2 class="title">Contact Us</h2>
+      <div class="contact">
+        <p>Have questions or want to book an appointment? Reach out to us!</p>
+        <p>Email: info@stylezonesalon.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Style Zone Salon. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
